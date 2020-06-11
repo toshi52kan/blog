@@ -1,21 +1,120 @@
-baseURL = "https://toshi52kan.github.io/"
+baseURL = "https://toshi52kan.github.io/blog/"
 publishDir = "docs"
-languageCode = "ja"
+languageCode = "ja-jp"
 title = "My New Hugo Site"
 theme = "hugo-tikva"
 [menu]
     [[menu.main]]
-        identifier = ""
+        identifier = "home"
         name = "Home"
         url = "/"
         weight = 1
     [[menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/public/post"
+        url = "/post"
         weight = 2
     [[menu.main]]
-        identifier = "flutter"
-        name = "Flutter"
-        url = "/flutter/start/about/"
+        identifier = "about"
+        name = "about"
+        url = "/about/"
         weight = 3
+
+# To enable a demo of pagination, this value is set to 2 instead of the default. See https://gohugo.io/getting-started/configuration/
+# for all site variables. The paginate default is 10
+paginate = 2
+
+# Google Analytics setting, see Hugo internal templates
+#googleAnalytics = "UA-123-45"
+
+
+# For all color settings, please use the format "#rrggbb". 
+
+# Generic parameters
+[params]
+    appendSiteTitle = true # Append site title to title tag on every page. Default false
+    #favicon = 'img/favicon.ico' # Add favicon, default empty
+    subtitle = "Example of Subtitle"
+
+    dateFormat = "2006 Jan 02, 15:04" # Format dates with Go's time formatting
+    showDate = true # true|false: Show date on summaries. This is a global setting. If the date should be shown, you have to add a "date" parameter to the content files, otherwise the default value will be used, which is something you don't want.
+    showNumberOfWords = false # true|false: Show number of word on article header of single content page
+    hideMeta = false # Hide meta information on single pages
+
+
+# Navigation bar settings
+
+[params.navbar]
+    style = "header" # Navigation bar style, values "fixed-top" or "header", default is fixed-top 
+    
+    colorScheme = "navbar-dark" # navbar-light, navbar-dark
+    
+    bgScheme = "bg-primary" # see Bootstrap docs, bg.* utilities https://getbootstrap.com/docs/4.1/utilities/colors/
+    
+    backgroundColor = ''  # custom background color parameters, e.g. #e3f2fd !important, If color is set, it will be used for background. Set empty for above selection.
+    
+    adjustHeader = 20 # Adjust header by adding a distance between navigation and content. Some of the styles need more space, so you can use this option to adjust. Use an integer value of pixels.
+    
+    textAlignment = '' # don't set or leave empty for default (left), or justify-content-end, justify-content-center
+
+    #brandImage = 'img/rg_mod_20.png' # The "brand image" will be set in "fixed-top" style as icon beside the site title. 
+
+
+# Meta header parameter settings
+
+# You can add as many rows as you want, every row defines a meta tag with its key and value. 
+# The content will be included in the head of the site as: <meta name="_key_" content="_value_">.
+
+[params.meta]
+    description = "This is only an example value for the meta description"
+    keywords = "example, site, theme, tikva"
+    author = "John Doe"
+    "DC.Copyright" = "Karl Mustermann"
+    
+
+# Theme configuration
+
+[params.theme]
+
+    bootstrapTheme = 'solar' # Use empty value for default Bootstrap color scheme or one of the following values:
+    # bolt, bstrap, btcn, calabaza, cerulean, cosmo, cyborg, darkly, flatly, hoff, journal,
+    # kdo_flatly, kdo2, kunsch, lumen, lux, malibu, materia, minim, minty, pulse, sandstone, 
+    # signa, simplex, sketchy, slate_accessibility_ready, slate, solar, sonic, spacelab, united, yeti
+
+    backgroundColor = '' # If color is set, it will be used for background. Set empty for default.
+    backgroundImage = '' # Set background image, use file name with path in static folder, e.g. 'img/background.jpg'
+    backgroundImageRepeat = '' # Set background image repeat option, see https://developer.mozilla.org/de/docs/Web/CSS/background-repeat
+
+
+# Header configuration
+
+ 
+
+
+[params.fonts]
+   
+    headerTitle = 'Exo' # set font, use string, e.g. "Lucida, Verdana, sans-serif". You can use any font value. Please activate Google Font option if you want to include Google Fonts, see their names on https://fonts.google.com/
+    headerTitleGoogleFont = true # If the font in the above variable is a Google font, set this option to true. 
+    headerTitleVariant = '800' # font variant, if available, e.g. "regular", "bold" etc. Not every font is available in multiple variants.
+    headerTitleSize = '50px' # set font size, empty for default settings. Valid values are '20px', '1.2em' and so on
+    
+    headerSubtitle = 'Exo' # Font settings for subtitle
+    headerSubtitleGoogleFont = true # If the font in the above variable is a Google font, set this option to true. 
+    headerSubtitleVariant = '600' # See above
+    headerSubtitleSize = '30px' # See above
+
+    #navbar = 'Lucida, Verdana' # font settings for navigation bar
+    navbarGoogleFont = false # If the font in the above variable is a Google font, set this option to true.  
+    navbarVariant = '' # See above
+    navbarSize = '20px' # See above
+
+    body = '' # font settings for body content
+    bodyGoogleFont = false # If the font in the above variable is a Google font, set this option to true. 
+    bodyVariant = '' # See above
+    bodySize = '' # See above
+
+    headline = 'Open Sans' # font settings for body content
+    headlineGoogleFont = true # If the font in the above variable is a Google font, set this option to true. 
+    headlineVariant = '' # See above
+    headlineBaseSize = '' # Set base font of headlines. The real size of H1 - H6 will be calculated based on this size with the same resize factors as in the CSS framework. Choose a size of 0 (zero) to use the default font size of the theme. Please use only integer values without "px", "em" or something else. 
+
