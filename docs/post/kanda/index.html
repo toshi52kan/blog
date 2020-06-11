@@ -1,41 +1,79 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja-jp">
 <head>
     <meta charset="utf-8" />
-    <title>Hugoを始めました</title>
+    <title>My New Hugo Site</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
+    <meta name="author" content="John Doe">
+    <meta name="dc.copyright" content="Karl Mustermann">
+    <meta name="description" content="This is only an example value for the meta description">
+    <meta name="keywords" content="example, site, theme, tikva">
 
     
-    <link href="https://toshi52kan.github.io/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://toshi52kan.github.io/blog/css/bootswatch/solar.min.css" rel="stylesheet">
     
-    <link href="https://toshi52kan.github.io/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://toshi52kan.github.io/css/custom.css" rel="stylesheet">
+    <link href="https://toshi52kan.github.io/blog/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://toshi52kan.github.io/blog/css/custom.css" rel="stylesheet">
 
 
 
 <script type="text/javascript">
-    var azbalacHeaderImage = [{"url":"https:\/\/toshi52kan.github.io\/",
+    var azbalacHeaderImage = [{"url":"https:\/\/toshi52kan.github.io\/blog\/",
     "height": '',
     "width": ''},"","",""];
 </script>
-<script src="https://toshi52kan.github.io/js/jquery-3.4.1.min.js"></script>
-<script src="https://toshi52kan.github.io/js/functions.js"></script><style>body { padding-top: 60px;}</style>
+<script src="https://toshi52kan.github.io/blog/js/jquery-3.4.1.min.js"></script>
+<script src="https://toshi52kan.github.io/blog/js/functions.js"></script><style>body {}</style>
 
 
 
-<style id="typography-title" type="text/css"></style>
+<link id="typography-header-title-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo%3A800"><style id="typography-title" type="text/css">#site-header-text a {
+        font-family: Exo;
+    }#site-header-text a {
+        font-size: 50px; 
+    }</style>
 
-<style id="typography-subtitle" type="text/css"></style>
+<link id="typography-header-subtitle-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo%3A600"><style id="typography-subtitle" type="text/css">#site-description {
+        font-family: Exo;
+    }#site-description {
+        font-size: 30px; 
+    }</style>
 
 <style id="typography-body" type="text/css"></style>
 
-<style id="typography-navbar" type="text/css"></style>
+<style id="typography-navbar" type="text/css">nav#navbarMain {
+        font-size: 20px; 
+    }
+    nav#navbarMain ul.dropdown-menu {
+        font-size: 20px;
+    }</style>
 
-<style id="typography-headline" type="text/css"></style>
+<link id="typography-headline-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"><style id="typography-headline" type="text/css">h1, h2, h3, h4, h5, h6 {
+                font-family: Open Sans; 
+            }</style>
 
+
+
+    
+    <script type="text/javascript">
+        var azbalacSettingHeaderColor = { 'bg': '#000000',
+            'transp': '70'
+            };
+
+    </script>
+    <style type="text/css">
+        #site-header-text a, #site-description {
+                background: "#000000";  
+            background:  rgba(0,0,0,0.70);
+            
+        }
+    </style>
+    
+    
+    
 
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -75,7 +113,7 @@
             </div>
 
 
-    <nav id="navbarMain" class="navbar navbar-expand-sm justify-content-between mb-3  " role="navigation">
+    <nav id="navbarMain" class="navbar navbar-expand-sm justify-content-between mb-3 navbar-dark bg-primary" role="navigation">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,7 +125,7 @@
 
   
   <li class="nav-item ">
-    <a class="nav-link" href="/">
+    <a class="nav-link" href="/blog/">
       
       Home
     </a>
@@ -97,7 +135,7 @@
 
   
   <li class="nav-item ">
-    <a class="nav-link" href="/public/post">
+    <a class="nav-link" href="/blog/post">
       
       Blog
     </a>
@@ -107,9 +145,9 @@
 
   
   <li class="nav-item ">
-    <a class="nav-link" href="/flutter/start/about/">
+    <a class="nav-link" href="/blog/about/">
       
-      Flutter
+      about
     </a>
   </li>
   <span class="mx-2"></span>
@@ -136,24 +174,19 @@
 
 
 
-<h1>Hugoを始めました</h1>
+<h1></h1>
 
-    <div class="post-meta">
+    <div class="post-meta"><span class="byline-icon fa fa-clock-o" aria-hidden="true"></span> <span class="screen-reader-text">Date: </span><time datetime="0001-01-01T00:00:00Z">0001 Jan 01, 00:00</time> - 
      </div>
 
 
-  <hr>
-<h2 id="menu-blog">menu: &ldquo;blog&rdquo;</h2>
-<p>天皇は、内閣の助言と承認により、国民のために、左の国事に関する行為を行ふ。</p>
-<blockquote>
-<p>憲法改正、法律、政令及び条約を公布すること。
-国会を召集すること。
-儀式を行ふこと。</p>
-</blockquote>
+  <p>天皇は、内閣の助言と承認により、国民のために、左の国事に関する行為を行ふ。</p>
 <ul>
-<li>AA</li>
+<li>憲法改正、法律、政令及び条約を公布すること。</li>
+<li>国会を召集すること。</li>
+<li>儀式を行ふこと。
+こんにちは、<strong>Hugo</strong> を始めました。</li>
 </ul>
-<p>こんにちは、<strong>Hugo</strong> を始めました。</p>
 
 
                 </div></div>
@@ -168,8 +201,8 @@
     
 
     <div id="media-width-detection-element"></div>
-<script src="https://toshi52kan.github.io/js/popper.min.js"></script>
-<script src="https://toshi52kan.github.io/js/bootstrap.min.js"></script>
+<script src="https://toshi52kan.github.io/blog/js/popper.min.js"></script>
+<script src="https://toshi52kan.github.io/blog/js/bootstrap.min.js"></script>
 
 
 </body>
