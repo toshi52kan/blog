@@ -1,4 +1,5 @@
 baseURL = "https://toshi52kan.github.io/"
+publishDir = "docs"
 languageCode = "ja"
 title = "My New Hugo Site"
 theme = "hugo-tikva"
