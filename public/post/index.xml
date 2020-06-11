@@ -6,33 +6,20 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Jun 2020 10:55:47 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2016 12:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://toshi52kan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Kanda</title>
+      <title>Hugoを始めました</title>
       <link>https://toshi52kan.github.io/post/kanda/</link>
-      <pubDate>Thu, 11 Jun 2020 10:55:47 +0900</pubDate>
+      <pubDate>Tue, 05 Apr 2016 12:00:00 +0900</pubDate>
       
       <guid>https://toshi52kan.github.io/post/kanda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://toshi52kan.github.io/post/practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://toshi52kan.github.io/post/practice/</guid>
-      <description>見出し Markdownを使ってみよう Markdonwとは？ 引用  Markdown（マークダウン）は、文書を記述するための軽量マークアップ言語のひとつである。 本来はプレーンテキスト形式で手軽に書いた文書からHTMLを生成するために開発されたものである。 しかし、現在ではHTMLのほかパワーポイント形式やLATEX形式のファイルへ変換する ソフトウェア（コンバータ）も開発されている。 各コンバータの開発者によって多様な拡張が施されるため、各種の方言が存在する。
- リンク Wiki:Markdown:WikiのMarkdownのページ
-強調 ここがemタグで強調されます
-ここがemタグで強調されます
-ここがstrongタグで強調されます
-ここがstrongタグで強調されます
-リスト  フシギダネ フシギソウ フシギバナ  テーブル    A列 B列 C列 D列 E列     あ い う え お   か き く け こ   さ し す せ そ    プログラムを記述する場合 num = 0 while num &amp;lt; 2 do print(&amp;#34;num = &amp;#34;, num) end print(&amp;#34;End&amp;#34;) </description>
+      <description>menu: &amp;ldquo;blog&amp;rdquo; 天皇は、内閣の助言と承認により、国民のために、左の国事に関する行為を行ふ。
+ 憲法改正、法律、政令及び条約を公布すること。 国会を召集すること。 儀式を行ふこと。
+  AA  こんにちは、Hugo を始めました。</description>
     </item>
     
   </channel>
