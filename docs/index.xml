@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; 2020. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 17:39:23 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 13:20:02 +0900</lastBuildDate>
     
 	<atom:link href="https://toshi52kan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pra</title>
+      <link>https://toshi52kan.github.io/blog/post/pra/</link>
+      <pubDate>Sat, 13 Jun 2020 13:20:02 +0900</pubDate>
+      
+      <guid>https://toshi52kan.github.io/blog/post/pra/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugoの使い方</title>
